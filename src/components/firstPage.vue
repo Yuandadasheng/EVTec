@@ -238,7 +238,7 @@ export default {
 			if(!cvalue){
 			   cvalue = ''
 			}
-			let strtime = '2019-10-08 00:01:01:000';
+			let strtime = '2018-10-21 12:00:01:000';
 			let date= new Date(strtime.replace(/-/g, '/'));
 			let times = date.getTime();
 			date.setTime(times);
@@ -300,7 +300,7 @@ export default {
 			}
 		},
 		_CountTimes(){//活动结束 ：时间
-			let strtime = '2018-10-08 00:00:00:000';
+			let strtime = '2018-10-21 12:00:01:000';
 			// let strtime = '2018-08-22 14:45:00:000';
 			let date= new Date(strtime.replace(/-/g, '/'));
 			let times = date.getTime();

@@ -33,6 +33,11 @@
   					 						{{items.agenda.title}}{{items.agenda.text}}
   					 					</th>
   					 				</tr>
+                    <tr v-if="items.blockchainAgenda" :style="{background:items.blockchainAgenda.bgcolor}">
+                      <th colspan="2">
+                        {{items.blockchainAgenda.title}}{{items.blockchainAgenda.text}}
+                      </th>
+                    </tr>
   					 			</thead>
   					 			<tbody v-if="items.bbs">
   					 				<tr v-for="item in  items.bbs.lists">
@@ -51,6 +56,7 @@
                                     </th>
                                 </tr>
                             </thead>
+
                             <tbody>
                                <tr v-for="list  in item.list">
                                 <td align="center">
@@ -84,6 +90,49 @@
   					 					</td>
   					 				</tr>
   					 			</tbody>	
+                  <tbody v-if="items.blockchainAgenda">
+                    <tr v-for="item in  items.blockchainAgenda.lists">
+                      <td width="100px" align="center">
+                       {{item.time}}
+                      </td>
+                      <td>
+                      
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td  style="border:0 solid #fff">
+                                  <strong>  {{item.type}}
+                                    <span v-if="item.type">：</span></strong>
+                                    {{item.conent}}
+                                </td>
+                            </tr>
+                            <tr v-if="item.compere" >
+                              <td  valign="top" width="80px" style="border:0 solid #fff">
+                                <strong>
+                                   {{item.compere}}：
+                                </strong>  {{item.compereWho}}
+                              </td>
+                            </tr>
+                            <tr v-if="item.speechmaker">
+                                <td  valign="top" width="80px">
+                                  <strong>
+                                    {{item.Execute}}：
+                                  </strong>
+                                  
+      
+                                     <span v-for="(text,index) in item.speechmaker">
+
+                                        {{text}} <span v-if="(index+1) !==  item.speechmaker.length">,</span>
+                                     </span>
+                                </td>
+                              <!--   <td  v-if="!item.speechmaker">
+                                 
+                                  
+                                </td> -->
+                            </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>  
   					 		</table>	
   					 	</div>
   					 

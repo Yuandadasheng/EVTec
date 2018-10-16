@@ -33,13 +33,16 @@ export const twoPage={
 				},
 				{
 					name: "主办",
-					conent: '纽伦堡会展（上海）有限公司、上海机动车检测认证技术研究中心'
+					conent: '上海机动车检测认证技术研究中心有限公司智能网联新能源汽车创新孵化中心、\
+					上海大众经济城发展中心、\
+					盖世汽车、\
+					纽伦堡会展（上海）有限公司'
 				}
 			],
 			bbs:{
-				title: '“汽车产业前沿技术与协调创新”论坛 ',
+				title: '“汽车产业前沿技术与协同创新”论坛',
 				bgcolor:'#22a74f',
-				date: "10月22日" ,
+				date: "10月22日",
 				lists:[
 					{
 						time: '上午',
@@ -51,7 +54,7 @@ export const twoPage={
 								timing: '9:30-9:50',
 								agenda:[{
 									title: '开幕式：',
-									content: '主持人致欢迎词并介绍参会领导及嘉宾'
+									content: '主办方致辞'
 								},{
 									title: '重要领导致辞',
 									content: ''
@@ -70,10 +73,10 @@ export const twoPage={
 								timing: '10:10-10:30',
 								agenda:[{
 									title: '主题演讲：',
-									content: '智能驾驶安全性试验测试评价研究'
+									content: '智能驾驶汽车测试与评价技术--为智能车安全保驾护航'
 								},{
 									title: '发言嘉宾：',
-									content: '上海测迅汽车科技有限公司 CTO , 吕济明博士'
+									content: '上海测迅汽车科技有限公司 总经理，李晓英'
 								}]
 							},{
 								timing: '10:30-10:50',
@@ -115,7 +118,7 @@ export const twoPage={
 								timing: '11:50-12:10',
 								agenda:[{
 									title: '主题演讲：',
-									content: '智能网联汽车产业计量测试中心服务平台'
+									content: '“智能网联汽车产业计量测试中心”介绍'
 								},{
 									title: '发言嘉宾：',
 									content: '上海机动车检测认证技术研究中心有限公司 计量测试中心主任, 申亚飞'
@@ -139,7 +142,7 @@ export const twoPage={
 									content: '遵循功能安全要求开发电池管理系统'
 								},{
 									title: '发言嘉宾：',
-									content: '东莞钜威动力技术有限公司CTO, 刘洋'
+									content: '东莞钜威动力技术有限公司副总经理, 刘洋'
 								}]
 							},{
 								timing: '14:20-14:40',
@@ -163,7 +166,7 @@ export const twoPage={
 								timing: '15:00-15:20',
 								agenda:[{
 									title: '主题演讲：',
-									content: '深圳乾达行科技 CEO, 罗昌杰博士'
+									content: '基于电气化、网络化、智能化的物流车队技术'
 								},{
 									title: '发言嘉宾：',
 									content: '上海华羿汽车系统集成有限公司CEO, 孙海东'
@@ -172,10 +175,10 @@ export const twoPage={
 								timing: '15:20-15:40',
 								agenda:[{
 									title: '主题演讲：',
-									content: '电动汽车底盘技术'
+									content: '新能源汽车底盘平台化趋势分析'
 								},{
 									title: '发言嘉宾：',
-									content: '捷星新能源科技（苏州）有限公司, 彭华'
+									content: '捷星新能源科技（苏州）有限公司董事长, 彭华'
 								}]
 							},{
 								timing: '15:40-16:00',
@@ -270,7 +273,7 @@ export const twoPage={
 		},{
 			DateVenue:[{
 					name: "日期",
-					conent: "2018年10月24日（星期三） 09:30~13:30"
+					conent: "2018年10月24日（星期三） 09:30~14:30"
 				},
 				{
 					name: "地点",
@@ -282,38 +285,86 @@ export const twoPage={
 				},
 				{
 					name: "支持机构",
-					conent: '阿里校友数字基金、IOV资本、BCTime传媒集团等'
+					conent: '阿里校友数字基金、IOV资本、BCTime传媒集团、FinTech4Good等'
 				}
 			],
-			agenda:{
-				title: '“区块链技术对汽车产业链的革命性颠覆”论坛',
+			blockchainAgenda:{
+				title: '区块链技术对汽车产业链的革命性颠覆论坛',
 				text:'初步议程',
 				bgcolor:'#2f8094',
 				lists:[
 					{
-						time: '09:30-10:00',
-						conent: '汽车行业面临的最大阻碍--区块链技术在汽车产业中的应用场景'
+						time: '9:30~9:45',
+						conent: '主办单位致欢迎辞'
 					},{
-						time: '10:00-10:20',
-						conent: '基于区块链技术的汽车数据质量分析跟踪及国际进展'
+						time: '9:45~10:15',
+						type: '主题演讲',
+						conent: '区块链技术在汽车产业中的应用场景',
+						Execute: '演讲人',
+						speechmaker:[
+							"张晓晨先生",
+							"FinTech4Good创始人",
+							"全球数字经济港创始发起人",
+							"联合国亚太经社理事会数字经济特别行动组成员"
+							]
+
 					},{
-						time: '10:20-10:40',
-						conent: '区块链技术带来的汽车行业创新与发展机遇'
+						time: '10:15 ~10:45',
+						type: '主题演讲',
+						conent: '区块链技术与汽车安全应用',
+						Execute: '演讲人',
+						speechmaker:[
+							"齐宪威先生",
+							"“御途网”创立者",
+							"前阿里巴巴战略合作部总经理、华南大区总经理"
+							]						
 					},{
-						time: '10:40-11:10',
-						conent: '炉边谈话:谁在将区块链技术植入日常用车'
+						time: '10:45~11:15',
+						type: '主题演讲',
+						conent: '基于区块链技术的汽车数据质量分析跟踪及国际进展',
+						Execute: '演讲人',
+						speechmaker:[
+							"Christoph Reich博士",
+							"富特旺根应用科学大学计算机科学教授",
+							"富特旺根应用科学大学信息和媒体中心首席信息官",
+							"云计算机和IT安全机构负责人"
+							]
+						
+						
 					},{
-						time: '11:10-11:40',
-						conent: '炉边谈话:汽车行业中价值链的重新设计'
+						time: '11:15~12:00',
+						type: '围炉讨论',
+						conent: '汽车行业中价值链的重新设计',
+						Execute: '讨论专家',
+						compere: '主持人',
+						compereWho: "张晓晨 先生 ",
+						speechmaker:[
+							"CarLife首席执行官， 龙亮 先生",
+          					"EVshare首席执行官，Mr. Eduardo Javier Muñoz"
+
+							]
 					},{
-						time: '12:30-13:20',
-						conent: '座谈会:区块链应用在汽车工业中的优势与劣势'
+						time: '12:00~13:00',
+						conent: '午餐休息',
+						
 					},{
-						time: '13:20-14:10',
-						conent: '座谈会:孵化与投资-区块链创新与汽车工业'
+						time: '13:00 ~14: 00',
+						type: '专家座谈',
+						conent: '汽车工业中区块链应用孵化与投资-区块链创新与汽车工业',
+						Execute: '演讲专家',
+						speechmaker:[
+							"张晓晨先生，FinTech4Good创始人",
+							"齐宪威先生，“御途网”创立者",
+							"Christoph Reich博士，富特旺根应用科学大学计算机科学教授",
+							"龙亮先生，CarLife首席执行官",
+							"Eduardo Javier Muñoz先生，EVshare首席执行官", 
+							"Eser Sevim先生，Further Network联合创始人"
+
+							]
 					},{
-						time: '14:10-14:40',
-						conent: '闪电演讲:关于区块链技术在汽车应用中的简短陈述'
+						time: '14:00 ~ 14:30',
+						conent: '国际区块链技术汽车应用比赛颁奖典礼',
+						
 					}
 				]
 			}
@@ -330,7 +381,7 @@ export const twoPage={
 		lists:[
 			'未报名用户也可以参与砍价活动',
 			'砍价金额仅用于门票优惠，如不参会属自动放弃，优惠金额恕不兑换现金',
-			'砍价活动有效期至2018年10月8日零点结束',
+			'砍价活动有效期至2018年10月9日零点结束',
 			'砍价活动结束后，工作人员将主动联系已报名参会的用户，确认最终门票价格'
 		]
 	},
