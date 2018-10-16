@@ -20,6 +20,8 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
+项目地址：[http://wx.expotec.com.cn/bargain/dist/index.html#/firstPage][1] 
+
 项目总结：
 
 采用vue + vux + less + vuescroll + vue-router + axios +webpack
@@ -110,7 +112,7 @@ npm run  build 打包页面显示空白问题：
     bundleAnalyzerReport: process.env.npm_config_report
   }
 
-项目地址：http://wx.expotec.com.cn/bargain/dist/index.html#/firstPage
+
 
 
 
