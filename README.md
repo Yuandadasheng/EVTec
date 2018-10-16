@@ -20,11 +20,10 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-项目地址： <br>
+项目地址： (需在微信中打开)<br>
 ![项目链接](http://wx.expotec.com.cn/bargain/CodeUrl.png "Code")
 <br>  
-[![项目链接]](http://wx.expotec.com.cn/bargain/dist/index.html#/firstPage)
-[项目链接]:http://wx.expotec.com.cn/bargain/CodeUrl.png "Code"
+[项目链接](http://wx.expotec.com.cn/bargain/dist/index.html#/firstPage)
 
 项目总结：
 
