@@ -23,7 +23,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 项目地址： (需在微信中打开)<br>
 ![项目链接](http://wx.expotec.com.cn/bargain/CodeUrl.png "Code")
 <br>  
-[项目链接](http://wx.expotec.com.cn/bargain/dist/index.html#/firstPage)
 
 项目总结：
 
@@ -83,7 +82,7 @@ npm run  build 打包页面显示空白问题：
 
 解决办法： config / index.js 中  assetsPublicPath: '', router中  base: '',
 
-
+```javascript
   build: {
     // Template for index.html
     index: path.resolve(__dirname, '../dist/index.html'),
@@ -114,7 +113,7 @@ npm run  build 打包页面显示空白问题：
     // Set to `true` or `false` to always turn it on or off
     bundleAnalyzerReport: process.env.npm_config_report
   }
-
+```
 
 
 
