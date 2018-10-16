@@ -31,10 +31,10 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 业务逻辑：
 
 1、客户进入页面，判断wxdata_wx_openid ,是否存在cookie 中。
-
+```javascript
 	a. 存在获取 wxdata_wx_openid 、wxdata_wx_nickname 、 wxdata_wx_headimgurl 
 	b. 不存在 需 先跳转"http://" + window.location.host + "/bargain/transfer.aspx"?return=" 返回页面
-
+```
 
 2、判断链接是否带参数 id
 	a. 不带参数，显示用户信息，不显示帮他砍价按钮
@@ -45,8 +45,10 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 3、获取砍价详情信息 
 	a. 总共砍价金额达到 600  显示您已砍价成功 弹出框。
-	链接："http://wx.expotec.com.cn/bargain/Handler.ashx?action=gettransfers&openid="+openid
-
+	链接：
+  ```javascript
+  "http://wx.expotec.com.cn/bargain/Handler.ashx?action=gettransfers&openid="+openid
+  ```
 4、砍价
 	a.帮他人砍价
 		1. 显示被砍价者的头像，
@@ -56,10 +58,10 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 	b.我也要玩
 		1. 显示用户的头像会帮自己砍价，
 		2. 弹出我要分享页面
-
+```javascript
 	砍价链接：'http://wx.expotec.com.cn/bargain/Handler.ashx?action=kj&openid='+ SelfOpenid+'&toopenid='+ toOpenid;
 	显示用户信息链接：  'http://wx.expotec.com.cn/bargain/Handler.ashx?action=getuserinfo&openid='+openid
-
+```
 5、我要分享按钮 弹出框
 	a. 如果从帮他人砍价按钮进去，点击我要分享，则会帮助自己砍价
 	b. 点击我要分享， 跳转用户自己分享页面，
