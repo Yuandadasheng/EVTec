@@ -314,7 +314,7 @@ export default {
 				this.BoxTimeTitle1 = '您已砍价成功！'
 			
 				let  Openid = this.UserOpenid;
-				let  url = 'http://wx.expotec.com.cn/bargain/Handler.ashx?action=gettransfers&openid='+Openid ;
+				let  url = 'http://wx.expotec.com.cn/nnnn.ashx?action=gettransfers&openid='+Openid ;
 				
 				 this.$axios({
 						method: 'POST',
@@ -363,7 +363,7 @@ export default {
 			}else{
 				Openid = this.UserOpenid;
 			}
-			let  url = 'http://wx.expotec.com.cn/bargain/Handler.ashx?action=gettransfers&openid='+Openid ;
+			let  url = 'http://wx.expotec.com.cn/mnnn.ashx?action=gettransfers&openid='+Openid ;
 			this.$axios({
 				method: 'POST',
 				url: url,
@@ -386,7 +386,7 @@ export default {
 				*/
 				toOpenid = SelfOpenid
 			}
-			let url = 'http://wx.expotec.com.cn/bargain/Handler.ashx?action=kj&openid='+ SelfOpenid+'&toopenid='+ toOpenid;
+			let url = 'http://wx.expotec.com.cn/nn.ashx?action=kj&openid='+ SelfOpenid+'&toopenid='+ toOpenid;
 			this.$axios({
 				method: 'POST',
 				url: url,
