@@ -29,11 +29,11 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 采用vue + vux + less + vuescroll + vue-router + axios +webpack
 
 业务逻辑：
-
+(安全性考虑，链接都不完整)
 1、客户进入页面，判断wxdata_wx_openid ,是否存在cookie 中。
 ```javascript
 	a. 存在获取 wxdata_wx_openid 、wxdata_wx_nickname 、 wxdata_wx_headimgurl 
-	b. 不存在 需 先跳转"http://" + window.location.host + "/bargain/transfer.aspx"?return=" 返回页面
+	b. 不存在 需 先跳转"http://" + window.location.host + "/nnnn.aspx"?return=" 返回页面
 ```
 
 2、判断链接是否带参数 id
@@ -47,7 +47,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 	a. 总共砍价金额达到 600  显示您已砍价成功 弹出框。
 	链接：
   ```javascript
-  "http://wx.expotec.com.cn/bargain/Handler.ashx?action=gettransfers&openid="+openid
+  "http://wx.expotec.com.cn/xxxx.ashx?action=gettransfers&openid="+openid
   ```
 4、砍价
 	a.帮他人砍价
@@ -59,8 +59,8 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 		1. 显示用户的头像会帮自己砍价，
 		2. 弹出我要分享页面
 ```javascript
-	砍价链接：'http://wx.expotec.com.cn/bargain/Handler.ashx?action=kj&openid='+ SelfOpenid+'&toopenid='+ toOpenid;
-	显示用户信息链接：  'http://wx.expotec.com.cn/bargain/Handler.ashx?action=getuserinfo&openid='+openid
+	砍价链接：'http://wx.expotec.com.cn/xxxx.ashx?action=kj&openid='+ SelfOpenid+'&toopenid='+ toOpenid;
+	显示用户信息链接：  'http://wx.expotec.com.cn/xxxx.ashx?action=getuserinfo&openid='+openid
 ```
 5、我要分享按钮 弹出框
 	a. 如果从帮他人砍价按钮进去，点击我要分享，则会帮助自己砍价
